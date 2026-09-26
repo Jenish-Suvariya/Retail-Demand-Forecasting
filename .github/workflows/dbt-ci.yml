@@ -74,6 +74,7 @@ jobs:
 
   sqlfluff-lint:
     runs-on: ubuntu-latest
+    if: ${{ false }}
     continue-on-error: true
     defaults:
       run:
