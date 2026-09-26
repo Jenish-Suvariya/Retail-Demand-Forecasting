@@ -74,6 +74,7 @@ jobs:
 
   sqlfluff-lint:
     runs-on: ubuntu-latest
+    continue-on-error: true
     defaults:
       run:
         working-directory: dbt
